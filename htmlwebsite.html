@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="itsme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png"/>
+    <style>
+        .enjoyy {
+            position: relative;
+        }
+       
+      /*This CSS code is defining the styles for a container that holds text*/
+        .nwaa {
+            position: absolute;
+            color: rgb(255, 255, 255);
+            left: 2.45rem;
+            top: 2rem;
+            background-color: rgb(41, 41, 41, 0.8);
+            padding: 0 1rem;
+            margin-top: 24rem;
+            
+        }
+    </style>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .openBtn {
+        display: flex;
+        justify-content: left;
+      }
+      .openButton {
+        border: none;
+        border-radius: 5px;
+        background-color: #1c87c9;
+        color: white;
+        padding: 14px 20px;
+        cursor: pointer;
+        position: absolute;
+        top:20px;
+        right:20px; 
+      }
+      .loginPopup {
+        position: relative;
+        text-align: center;
+        width: 100%;
+      }
+      .formPopup {
+        display: none;
+        position: fixed;
+        left: 45%;
+        top: 5%;
+        transform: translate(-50%, 5%);
+        border: 3px solid #999999;
+        z-index: 9;
+      }
+      .formContainer {
+        max-width: 300px;
+        padding: 20px;
+        background-color: #fff;
+      }
+      .formContainer input[type=text],
+      .formContainer input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 20px 0;
+        border: none;
+        background: #eee;
+      }
+      .formContainer input[type=text]:focus,
+      .formContainer input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+      .formContainer .btn {
+        padding: 12px 20px;
+        border: none;
+        background-color: #8ebf42;
+        color: #fff;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 15px;
+        opacity: 0.8;
+      }
+      .formContainer .cancel {
+        background-color: #cc0000;
+      }
+      .formContainer .btn:hover,
+      .openButton:hover {
+        opacity: 1;
+      }
+    </style>
+    
+</head>
+<body>
+    <div class="navbar">
+            <img src="letter_C_trade_marketing_logo_design_template-removebg-preview.png" alt="Logo" class="logo">
+            <div class="nav-options">
+              <a class="active" href="#http://127.0.0.1:5500/project2/CSSstarts.html/contactuspage.html">Home</a>
+                <a href="https://upstox.com/open-demat-account/?f=5EBQFH">Invest</a>
+                <a href="https://upstox.com/trade-in-futures-and-options/">Trade</a>
+                <a href="http://127.0.0.1:5500/project2/CSSstarts.html/aboutuspage.html">About us</a>
+                <a href="http://127.0.0.1:5500/project2/CSSstarts.html/contactuspage.html">Contact us</a>          
+              
+                  <a  class="openBtn" class="openButton" onclick="openForm()" class= "signup" href="#sign up">Sign up</a>
+                <a  class= "login" href="http://127.0.0.1:5500/project2/CSSstarts.html/loginpage.html">Logout</a>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search" placeholder="     Search any stock ">
+                <a href="http://127.0.0.1:5500/project2/CSSstarts.html/faqsection.html" class="faq">Any Faq?</a>
+                
+            </div>
+
+    </div>
+    
+
+<div class="banner">
+    <div >
+           <br>
+           <br>
+           <div class="banner" style="background-image: url('forex-companies2-1024x684.jpg'); background-size: cover; background-position: center; height: 400px;">
+            <div>
+                <br>
+                <br>
+                <br>
+            <h2 class="heading">Invest Now and Invest Perfect With Us</h2>
+        
+           <span class="learn">Learn some Investment Techniques with us</span>
+           <br>
+           <br>
+           <br>
+           <input type="tel" class="phoneno" placeholder="Enter your mobile no." maxlength="10" required>
+           <p>By signing up, you agree to receive transaction updates on Whatsapp. <br>
+            You may also receive a call from our representative to help your
+        <br>open the account.</p>
+
+        <input type="submit" value="Submit" id="submit1" class="button"> 
+    </div></div>
+
+    <div><h2 class="invest">Learn to invest with us</h2>
+    
+    <p class="free">With our free courses and video content</p>
+    <table class="decoorate" >
+        <tr>
+            <td > <a  href="https://www.youtube.com/watch?v=LwWVzi_fdP4&list=PLJwRwY_zmmSFpllPucLrNQJ1V3-dGhz6P" ><img class="img" src="webinar-icon-png-0.jpg" alt="Webinar" width="150px" height="150px"></td></a>
+            <td><span id="content">Watch some videos <a href="https://www.youtube.com/watch?v=LwWVzi_fdP4&list=PLJwRwY_zmmSFpllPucLrNQJ1V3-dGhz6P">here</a></td></span>
+        </tr>
+        <br>
+        <br>
+
+        <tr>
+            <br>
+            <br>
+            <td> <a href="https://www.udemy.com/topic/stock-trading/" ><img  class="img1" src="online-course-icon.png" alt="Webinar" width="150px" height="150px"></td></a>
+            <td><span id="courses"> Explore courses <a href="https://www.udemy.com/topic/stock-trading/" >here</a></td></span>
+        </tr>
+
+    </table>
+    </div>
+    
+    <section>
+        <h2 class="news">Stay Updated</h2>
+        <p class="fingerprints">Get the latest news at your fingerprints</p>
+        <h2>Recent Trading Developments</h2>
+</section>
+
+<div class="slider-frame">
+    <div class="slide-images">
+        <div class="img-container">
+            <img src="istockphoto-1155610132-612x612.jpg" alt="image1">
+        </div>
+        <div class="img-container">
+            <img src="forex-companies2-1024x684.jpg" alt="image1">
+        </div>
+        <div class="img-container">
+            <img src="istockphoto-1155610132-612x612.jpg" alt="image1">
+        </div>
+    </div>
+</div>
+
+<div class="enjoyy">
+    <h2 class="enjoy">Enjoy Learning</h2>
+    <br>
+    
+    <img  src="istockphoto-1180187740-612x612.jpg" alt="Image" height="500px" width="1100px">
+
+<div class="nwaa">
+    <h2>Invest Right, Invest Now</h2>
+    <input type="button" value="Know More" id="button2">
+    
+<div class="loginPopup">
+  <div class="formPopup" id="popupForm">
+    <form action="http://127.0.0.1:5500/project2/CSSstarts.html/htmlwebsite.html" class="formContainer">
+      <h2 class="signuphere">Sign Up</h2>
+      <label for="email">
+        <strong>E-mail</strong>
+      </label>
+      <input type="text" id="email" placeholder="Your Email" name="email" required>
+      <label for="psw">
+        <strong>Password</strong>
+      </label>
+      <input type="password" id="psw" placeholder="Your Password" name="psw" required>
+      <button type="submit" class="btn">Log in</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+</div>
+<script>
+  function openForm() {
+    document.getElementById("popupForm").style.display = "block";
+  }
+  function closeForm() {
+    document.getElementById("popupForm").style.display = "none";
+  }
+</script>
+
+</body>
+</html>

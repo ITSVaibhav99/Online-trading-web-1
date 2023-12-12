@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap);
+body {
+    font-family: 'Arial', sans-serif;
+    color: #f7f7f7;
+    margin: 0;
+    background-color: black;}
+
+.title{
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px rgb(173, 118, 118);
+}
+
+.title:hover{
+    text-shadow: 2px 2px rgb(156, 16, 16);
+    transition: 1s;
+}
+
+.faq-section{
+
+    margin-top: 50px;
+
+}
+
+.toggle{
+   
+}

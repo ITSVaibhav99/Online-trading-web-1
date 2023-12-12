@@ -1,0 +1,10 @@
+h1{
+    box-sizing: content-box;
+    margin: 0;
+    background-color: yellow;
+    border: solid red 4px;
+    display: inline;
+    text-align: center;
+    
+    
+}
